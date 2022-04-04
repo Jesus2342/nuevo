@@ -21,5 +21,5 @@ class empleado(persona):
         
 
 antonio=persona("antonio", 32, "españad")
-
+#purbea git
 antonio.descripcion()
