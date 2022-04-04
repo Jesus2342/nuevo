@@ -22,3 +22,7 @@ git add . ---- nos sirve para dar un seguimiento a todos los archivos.
 
 git commit -m "agregamos archivo tal.py"  ---- Es -m por mensaje 
 
+
+SI QUEREMOS REGRESAR UNA VERSION PORQUE YA NO LA NECESITAMOS 
+git log --oneline    -----> nos sirve para poder ver todos los commits publicados 
+git reset --hard "y aqui ponemos el identificador" -----> ejemplo git reset
