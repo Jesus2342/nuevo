@@ -1,0 +1,24 @@
+
+                SOLO SE EJECUTA UNA VEZ POR CARPTA DE TRABAJO
+git init ---- cuando queremos relacionar todos los archivos con un repositorio guardado en una carpeta como python-course. 
+              
+
+
+
+
+                UNA VEZ QUE SE TENGAN VARIOS ARCHIVOS SE EJECUTA GIT STATUS 
+git status -s --- nos dice que archivos si los archivos se modificaron, se eliminaron o si se crearon. Es normal que al inicio vemos
+                "??" a la izquierda de los archivos.
+
+git add --- nos sirve para agregar los archivos a una area temporal (yellow).   (git add test.py)
+            Para comprobar que los archivos se agregaron correctamente entonces, volvemos a correr git status -s y se pintara
+            una A a la izquierda del nombre del archivo.
+
+
+git add . ---- nos sirve para dar un seguimiento a todos los archivos.
+
+
+            SI QUEREMOS GUARDAR UNA FOTOGRAFIA O UNA COPIA DE ESTE ARCHIVO SE HACE EL PRIMER COMMIT
+
+git commit -m "agregamos archivo tal.py"  ---- Es -m por mensaje 
+
